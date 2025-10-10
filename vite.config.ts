@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: '/mir4-scout-hub-92117-27886-11890-29739/',
   server: {
     host: "::",
     port: 8080,
